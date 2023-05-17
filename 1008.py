@@ -1,0 +1,6 @@
+N = int(input())
+HR = int(input())
+SA = float(input())
+ST = (HR*SA)
+print(f'NUMBER = {N}')
+print(f'SALARY = U$ {ST:.2f}')
