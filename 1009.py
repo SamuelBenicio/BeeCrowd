@@ -1,0 +1,6 @@
+NOME = input()
+SALARIO = float(input())
+BONUS = float(input())
+SALARIOF = (BONUS*0.15)
+SF = (SALARIO+SALARIOF)
+print(f'TOTAL = R$ {SF:.2f}')
